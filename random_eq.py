@@ -16,5 +16,5 @@ while True:
         print(count)
         count += 1
 
-    if count == 11:
+    if count == len(numbers) + 1:
         break
