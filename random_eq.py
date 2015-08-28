@@ -2,7 +2,7 @@
 import random
 import math
 
-numbers = [x + 1 for x in range(9)]
+numbers = range(1, 10)
 
 count = 1
 while True:
@@ -14,7 +14,7 @@ while True:
 
     if read == answer:
         print(count)
-        count = count + 1
+        count += 1
 
     if count == 11:
         break
